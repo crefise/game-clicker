@@ -1,10 +1,10 @@
 <template>
   <div>
     <div>
-      <span>Just clicks</span>
+      <span>Super clicks</span>
     </div>
     <div>
-      <button @click="makeClick">Click</button>
+      <button @click="makeClick">Click super</button>
     </div>
     <div>
       <span>CLicks:</span>

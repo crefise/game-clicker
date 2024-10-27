@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-        <title>Welcome module</title>
+        <title>FROA1</title>
     </head>
-    @vite('resources/js/modules/base-platform/index.js')
+    @vite('modules/RoadmapFrontendTests_module/resources/js/index.js')
     <body>
     <div id="app"></div>
     </body>

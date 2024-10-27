@@ -1,6 +1,5 @@
 <?php
 
 return [
-    App\Providers\AppServiceProvider::class,
-    Modules\DevelopGames_module\App\ModuleServiceProvider::class,
+    Modules\RoadmapFrontendTests_module\App\ModuleServiceProvider::class,
 ];

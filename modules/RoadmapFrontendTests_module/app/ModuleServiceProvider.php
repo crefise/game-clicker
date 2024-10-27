@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\DevelopGames_module\App;
+namespace Modules\RoadmapFrontendTests_module\App;
 
 class ModuleServiceProvider extends \App\Providers\ModuleServiceProvider
 {
@@ -12,16 +12,13 @@ class ModuleServiceProvider extends \App\Providers\ModuleServiceProvider
     public function boot(): void
     {
         $this->bootLoadRoutes();
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'RoadmapFrontendTests_module');
     }
 
     protected function bootLoadRoutes(): void
     {
         if (file_exists(__DIR__ . '/../routes/web.php')) {
             $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
-        }
-
-        if (file_exists(__DIR__ . '/../routes/api.php')) {
-            $this->loadRoutesFrom(__DIR__ . '/../routes/api.php');
         }
     }
 }

@@ -2,11 +2,12 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import laravel from 'laravel-vite-plugin';
 
-
 export default defineConfig({
     plugins: [
         laravel({
-            input: 'resources/js/modules/base-platform/index.js',
+            input: {
+                RoadmapFrontendTests_module: 'modules/RoadmapFrontendTests_module/resources/js/index.js'
+            },
             refresh: true,
         }),
         vue(),
