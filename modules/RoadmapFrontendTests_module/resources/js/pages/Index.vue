@@ -1,7 +1,10 @@
 <template>
   <div>
     <div>
-      <span>Super clicks</span>
+      <module-info />
+    </div>
+    <div>
+      <block-game />
     </div>
     <div>
       <button @click="makeClick">Click super</button>
@@ -16,8 +19,14 @@
 <script lang="ts">
 import { ref } from 'vue';
 import type { Ref } from "vue";
+import ModuleInfo from "../components/ModuleInfo.vue";
+import BlockGame from "../components/BlockGame.vue";
 
 export default {
+  components: {
+    BlockGame,
+    ModuleInfo
+  },
   setup() {
     const clicks: Ref<number> = ref(55);
 
