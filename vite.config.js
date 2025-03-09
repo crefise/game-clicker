@@ -12,4 +12,10 @@ export default defineConfig({
         }),
         vue(),
     ],
+    resolve: {
+        alias: {
+            'RoadmapFrontendTests_module': 'modules/RoadmapFrontendTests_module'
+        },
+        extensions: ['.js', '.vue', '.ts', '.json'] // Add .js here
+    }
 });
