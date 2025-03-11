@@ -8,23 +8,35 @@
 
     <div>
       <div>
-        <div>
-          <h1>Simple method test:</h1>
-        </div>
-        <div>
-          <simple-properties-test />
-        </div>
+        <simple-properties-test />
+      </div>
+
+      <div>
+        <snapshots-test message="This is just props message"/>
+      </div>
+
+      <div>
+        <test-each-test :power="100" />
+      </div>
+
+      <div>
+        <test-async-code success />
+      </div>
+      <div>
+        <mocking-test />
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import SimplePropertiesTest from "RoadmapFrontendTests_module/resources/js/components/tests/SimplePropertiesTest.vue";
+import SimplePropertiesTest from "RoadmapFrontendTests_module/resources/js/components/SimplePropertiesTest.vue";
+import SnapshotsTest from "RoadmapFrontendTests_module/resources/js/components/SnapshotsTest.vue";
+import TestEachTest from "RoadmapFrontendTests_module/resources/js/components/TestEachTest.vue";
+import TestAsyncCode from "RoadmapFrontendTests_module/resources/js/components/TestAsyncCode.vue";
+import MockingTest from "RoadmapFrontendTests_module/resources/js/components/MockingTest.vue";
 
 export default {
-  components: {SimplePropertiesTest},
-  setup() {
-  }
+  components: {MockingTest, TestAsyncCode, TestEachTest, SnapshotsTest, SimplePropertiesTest },
 };
 </script>

@@ -5,15 +5,22 @@
         "build": "vite build",
         "dev": "vite",
         "watch": "vite build --watch",
-        "type-check": "vue-tsc --noEmit"
+        "type-check": "vue-tsc --noEmit",
+        "test:unit": "jest"
     },
     "devDependencies": {
+        "@babel/preset-env": "^7.26.9",
         "@typescript-eslint/eslint-plugin": "^8.11.0",
         "@typescript-eslint/parser": "^8.11.0",
         "@vitejs/plugin-vue": "^5.1.4",
+        "@vue/test-utils": "^2.4.6",
+        "@vue/vue3-jest": "^29.2.6",
         "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
+        "babel-jest": "^29.7.0",
         "concurrently": "^9.0.1",
+        "jest": "^29.7.0",
+        "jest-environment-jsdom": "^29.7.0",
         "laravel-vite-plugin": "^1.0.5",
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.13",

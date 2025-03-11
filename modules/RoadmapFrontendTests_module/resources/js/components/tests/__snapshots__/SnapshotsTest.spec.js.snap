@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test 1`] = `
+"<div style="border: 1px solid black; padding: 10px;">
+  <div>
+    <h4><em>This test is created to show knowledge about snapshots. </em></h4>
+  </div>
+  <div>Hello new snapshot!</div>
+  <div><pre style="background: rgb(203, 213, 224);">        test('Snapshot test', () =&gt; {
+          const wrapper = shallowMount(SnapshotsTest, {
+            props: {
+              message: 'Hello new snapshot!',
+            }
+          })
+          expect(wrapper.html()).toMatchSnapshot()
+        })
+      </pre>
+  </div>
+</div>"
+`;

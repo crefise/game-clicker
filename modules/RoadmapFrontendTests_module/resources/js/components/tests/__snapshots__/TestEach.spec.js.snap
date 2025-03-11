@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestEachTest component renders correct status for power: -10 1`] = `
+"<div style="border: 1px solid black; padding: 10px;">
+  <h4><em>This test is created to show knowledge about both data providers (test.each) and snapshot </em></h4>
+  <div>Status: <span>You are dead(</span></div>
+  <div><span>You are dead!</span></div>
+  <div><pre style="background: rgb(203, 213, 224);">        describe('TestEachTest component', () =&gt; {
+          test.each([
+            [120, 'You are super powerful!'],
+            [90, 'You are just powerful!'],
+            [70, 'You are strong!'],
+            [50, 'You are not strong!'],
+            [20, 'You are bad!'],
+            [0, 'You are dead('],
+            [-10, 'You are dead(']
+            ])('renders correct status for power: %i', (power, expectedStatus) =&gt; {
+              const wrapper = shallowMount(PowerStatus, {
+              props: { power }
+            })
+
+            expect(wrapper.text()).toContain(expectedStatus)
+            expect(wrapper.html()).toMatchSnapshot()
+          })
+        })
+      </pre>
+  </div>
+</div>"
+`;
+
+exports[`TestEachTest component renders correct status for power: 0 1`] = `
+"<div style="border: 1px solid black; padding: 10px;">
+  <h4><em>This test is created to show knowledge about both data providers (test.each) and snapshot </em></h4>
+  <div>Status: <span>You are dead(</span></div>
+  <div><span>You are dead!</span></div>
+  <div><pre style="background: rgb(203, 213, 224);">        describe('TestEachTest component', () =&gt; {
+          test.each([
+            [120, 'You are super powerful!'],
+            [90, 'You are just powerful!'],
+            [70, 'You are strong!'],
+            [50, 'You are not strong!'],
+            [20, 'You are bad!'],
+            [0, 'You are dead('],
+            [-10, 'You are dead(']
+            ])('renders correct status for power: %i', (power, expectedStatus) =&gt; {
+              const wrapper = shallowMount(PowerStatus, {
+              props: { power }
+            })
+
+            expect(wrapper.text()).toContain(expectedStatus)
+            expect(wrapper.html()).toMatchSnapshot()
+          })
+        })
+      </pre>
+  </div>
+</div>"
+`;
+
+exports[`TestEachTest component renders correct status for power: 20 1`] = `
+"<div style="border: 1px solid black; padding: 10px;">
+  <h4><em>This test is created to show knowledge about both data providers (test.each) and snapshot </em></h4>
+  <div>Status: <span>You are bad!</span></div>
+  <div>
+    <!--v-if-->
+  </div>
+  <div><pre style="background: rgb(203, 213, 224);">        describe('TestEachTest component', () =&gt; {
+          test.each([
+            [120, 'You are super powerful!'],
+            [90, 'You are just powerful!'],
+            [70, 'You are strong!'],
+            [50, 'You are not strong!'],
+            [20, 'You are bad!'],
+            [0, 'You are dead('],
+            [-10, 'You are dead(']
+            ])('renders correct status for power: %i', (power, expectedStatus) =&gt; {
+              const wrapper = shallowMount(PowerStatus, {
+              props: { power }
+            })
+
+            expect(wrapper.text()).toContain(expectedStatus)
+            expect(wrapper.html()).toMatchSnapshot()
+          })
+        })
+      </pre>
+  </div>
+</div>"
+`;
+
+exports[`TestEachTest component renders correct status for power: 50 1`] = `
+"<div style="border: 1px solid black; padding: 10px;">
+  <h4><em>This test is created to show knowledge about both data providers (test.each) and snapshot </em></h4>
+  <div>Status: <span>You are not strong!</span></div>
+  <div>
+    <!--v-if-->
+  </div>
+  <div><pre style="background: rgb(203, 213, 224);">        describe('TestEachTest component', () =&gt; {
+          test.each([
+            [120, 'You are super powerful!'],
+            [90, 'You are just powerful!'],
+            [70, 'You are strong!'],
+            [50, 'You are not strong!'],
+            [20, 'You are bad!'],
+            [0, 'You are dead('],
+            [-10, 'You are dead(']
+            ])('renders correct status for power: %i', (power, expectedStatus) =&gt; {
+              const wrapper = shallowMount(PowerStatus, {
+              props: { power }
+            })
+
+            expect(wrapper.text()).toContain(expectedStatus)
+            expect(wrapper.html()).toMatchSnapshot()
+          })
+        })
+      </pre>
+  </div>
+</div>"
+`;
+
+exports[`TestEachTest component renders correct status for power: 70 1`] = `
+"<div style="border: 1px solid black; padding: 10px;">
+  <h4><em>This test is created to show knowledge about both data providers (test.each) and snapshot </em></h4>
+  <div>Status: <span>You are strong!</span></div>
+  <div>
+    <!--v-if-->
+  </div>
+  <div><pre style="background: rgb(203, 213, 224);">        describe('TestEachTest component', () =&gt; {
+          test.each([
+            [120, 'You are super powerful!'],
+            [90, 'You are just powerful!'],
+            [70, 'You are strong!'],
+            [50, 'You are not strong!'],
+            [20, 'You are bad!'],
+            [0, 'You are dead('],
+            [-10, 'You are dead(']
+            ])('renders correct status for power: %i', (power, expectedStatus) =&gt; {
+              const wrapper = shallowMount(PowerStatus, {
+              props: { power }
+            })
+
+            expect(wrapper.text()).toContain(expectedStatus)
+            expect(wrapper.html()).toMatchSnapshot()
+          })
+        })
+      </pre>
+  </div>
+</div>"
+`;
+
+exports[`TestEachTest component renders correct status for power: 90 1`] = `
+"<div style="border: 1px solid black; padding: 10px;">
+  <h4><em>This test is created to show knowledge about both data providers (test.each) and snapshot </em></h4>
+  <div>Status: <span>You are just powerful!</span></div>
+  <div>
+    <!--v-if-->
+  </div>
+  <div><pre style="background: rgb(203, 213, 224);">        describe('TestEachTest component', () =&gt; {
+          test.each([
+            [120, 'You are super powerful!'],
+            [90, 'You are just powerful!'],
+            [70, 'You are strong!'],
+            [50, 'You are not strong!'],
+            [20, 'You are bad!'],
+            [0, 'You are dead('],
+            [-10, 'You are dead(']
+            ])('renders correct status for power: %i', (power, expectedStatus) =&gt; {
+              const wrapper = shallowMount(PowerStatus, {
+              props: { power }
+            })
+
+            expect(wrapper.text()).toContain(expectedStatus)
+            expect(wrapper.html()).toMatchSnapshot()
+          })
+        })
+      </pre>
+  </div>
+</div>"
+`;
+
+exports[`TestEachTest component renders correct status for power: 120 1`] = `
+"<div style="border: 1px solid black; padding: 10px;">
+  <h4><em>This test is created to show knowledge about both data providers (test.each) and snapshot </em></h4>
+  <div>Status: <span>You are super powerful!</span></div>
+  <div>
+    <!--v-if-->
+  </div>
+  <div><pre style="background: rgb(203, 213, 224);">        describe('TestEachTest component', () =&gt; {
+          test.each([
+            [120, 'You are super powerful!'],
+            [90, 'You are just powerful!'],
+            [70, 'You are strong!'],
+            [50, 'You are not strong!'],
+            [20, 'You are bad!'],
+            [0, 'You are dead('],
+            [-10, 'You are dead(']
+            ])('renders correct status for power: %i', (power, expectedStatus) =&gt; {
+              const wrapper = shallowMount(PowerStatus, {
+              props: { power }
+            })
+
+            expect(wrapper.text()).toContain(expectedStatus)
+            expect(wrapper.html()).toMatchSnapshot()
+          })
+        })
+      </pre>
+  </div>
+</div>"
+`;
